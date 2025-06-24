@@ -6,55 +6,73 @@
   <title>CEO Ware</title>
   <style>
     body {
-      background-color: #0f0f0f;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: white;
-      font-family: Arial, sans-serif;
       text-align: center;
+    }
+    header {
+      padding: 40px 0;
+    }
+    header h1 {
+      font-size: 4em;
+      color: #00ffc3;
       margin: 0;
     }
-    h1 {
-      font-size: 3em;
-      margin-top: 40px;
-      color: #00ffcc;
-    }
     .status {
-      margin: 20px auto;
+      margin-top: 10px;
+      font-size: 1.2em;
+      color: #7fff00;
       background: #1a1a1a;
       padding: 10px 20px;
-      border-radius: 10px;
       display: inline-block;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffc3;
     }
     .buttons {
+      margin-top: 40px;
       display: flex;
       justify-content: center;
-      gap: 15px;
-      margin-top: 30px;
+      gap: 20px;
       flex-wrap: wrap;
     }
     .btn {
-      background-color: #222;
-      border: 1px solid #00ffcc;
-      color: #00ffcc;
-      padding: 15px 25px;
-      border-radius: 10px;
+      background-color: #1e1e1e;
+      border: 2px solid #00ffc3;
+      color: #00ffc3;
+      padding: 15px 30px;
+      border-radius: 12px;
+      font-size: 1.1em;
       font-weight: bold;
       text-decoration: none;
-      transition: 0.3s;
+      transition: 0.3s ease;
     }
     .btn:hover {
-      background-color: #00ffcc;
-      color: #000;
+      background-color: #00ffc3;
+      color: black;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #888;
     }
   </style>
 </head>
 <body>
-  <h1>CEO WARE</h1>
-  <div class="status">🟢 All Systems Operational</div>
+  <header>
+    <h1>CEO WARE</h1>
+    <div class="status">🟢 All Systems Operational</div>
+  </header>
   <div class="buttons">
-    <a href="#" class="btn">BUY | 1 DAY</a>
-    <a href="#" class="btn">BUY | 1 WEEK</a>
-    <a href="#" class="btn">BUY | 1 MONTH</a>
-    <a href="#" class="btn">BUY | LIFETIME</a>
+    <a href="https://paypal.com" class="btn">BUY | 1 DAY</a>
+    <a href="https://paypal.com" class="btn">BUY | 1 WEEK</a>
+    <a href="https://paypal.com" class="btn">BUY | 1 MONTH</a>
+    <a href="https://paypal.com" class="btn">BUY | LIFETIME</a>
   </div>
+  <footer>
+    &copy; 2025 CEO Ware. All rights reserved.
+  </footer>
 </body>
 </html>
